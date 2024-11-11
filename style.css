@@ -45,9 +45,9 @@ input {
     border: 1px solid #ccc;
     border-radius: 4px;
     height: 80px;
-    border: 10px solid grey;
-    border-right: 2px;
-    border-left: 2px ;
+    border: 7px solid grey;
+    border-right: 4px;
+    border-left: 4px ;
     background-color: rgb(19, 18, 18); 
     border-radius: 7px  ;
     color: white; 

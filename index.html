@@ -9,40 +9,42 @@
 <body >
     <h1 class="heading">Calculator</h1>
     <div >
-       
+
+     
         <div>
-            <input  id="inp" type="number" placeholder="0">
+            <input  id="inp" type="text" placeholder="0">
         </div>
 
         <div class="deletebtns">
-            <button onclick="allClear()"  class="btn1">Ac</button>
-            <button  class="btn2"> <span>del</span></button>
+            <button onclick="Ac()"  class="btn1">Ac</button>
+            <button  class="btn2" onclick="del()"> del</button>
         </div>
         <div>
-            <button onclick="setANumber('7')" >7</button>
-            <button onclick="setANumber('8')">8</button>
-            <button onclick="setANumber('9')">9</button>
-            <button onclick="setANumber('*')" >x</button>
+            <button onclick="getnum('8')">8</button>
+            <button onclick="getnum('7')" >7</button>
+            <button onclick="getnum('9')">9</button>
+            <button onclick="getnum('*')" >x</button>
         </div>
         <div>
-            <button onclick="setANumber('4')" >4</button>
-            <button onclick="setANumber('5')" >5</button>
-            <button onclick="setANumber('6')" >6</button>
-            <button onclick="setANumber('/')"  >/</button>
+            <button onclick="getnum('4')" >4</button>
+            <button onclick="getnum('5')" >5</button>
+            <button onclick="getnum('6')" >6</button>
+            <button onclick="getnum('/')"  >/</button>
         </div>
         <div>
-            <button onclick="setANumber('1')" >1</button>
-            <button onclick="setANumber('2')" >2</button>
-            <button onclick="setANumber('3')" >3</button>
-            <button onclick="setANumber('+')"  >+</button>
+            <button onclick="getnum('1')" >1</button>
+            <button onclick="getnum('2')" >2</button>
+            <button onclick="getnum('3')" >3</button>
+            <button onclick="getnum('+')"  >+</button>
         </div>
         <div>
-            <button onclick="setANumber('0')" >0</button>
-            <button onclick="setANumber('.')" >.</button>
-            <button onclick="setANumber('-')"  >-</button>
-            <button onclick="calc()"   >=</button>
+            <button onclick="getnum('0')" >0</button>
+            <button onclick="getnum('.')" >.</button>
+            <button onclick="getnum('-')"  >-</button>
+            <button onclick="calculate()"   >=</button>
         </div>
-    </div>
-</body>
-<script src="app.js"></script>
-</html>
+    </div> 
+
+
+
+    
